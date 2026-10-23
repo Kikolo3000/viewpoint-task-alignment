@@ -1,0 +1,4 @@
+corpus_a,corpus_b,sigma_a,sigma_b,sigma_ratio,levene_stat,levene_p,significant
+symbtr,the_session,0.08,0.0865,0.925,0.009,0.9280161510023821,False
+symbtr,essen,0.08,0.0112,7.116,13.357,0.003298059408803693,True
+the_session,essen,0.0865,0.0112,7.69,3.123,0.10259574839577108,False

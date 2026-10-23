@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software or the accompanying Zenodo artifacts, please cite both the paper and the Zenodo record."
+type: software
+title: "Reproducibility package for 'Viewpoint–Task Alignment: When and Why Pattern-Derived Features Improve Symbolic Folk-Music Classification'"
+version: "1.0.0"
+date-released: "2026-10-24"
+authors:
+  - family-names: "Gutiérrez Álvarez"
+    given-names: "Enrique"
+    affiliation: "Universidad Politécnica de Madrid"
+    email: "enrique.gutierrez.alvarez@upm.es"
+license: MIT
+repository-code: "https://github.com/Kikolo3000/viewpoint-task-alignment"
+url: "https://github.com/Kikolo3000/viewpoint-task-alignment"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21129773"
+    description: "Zenodo artifact deposit (concept DOI, all versions)"
+preferred-citation:
+  type: article
+  title: "Viewpoint–Task Alignment: When and Why Pattern-Derived Features Improve Symbolic Folk-Music Classification"
+  authors:
+    - family-names: "Gutiérrez Álvarez"
+      given-names: "Enrique"
+  journal: "Transactions of the International Society for Music Information Retrieval"
+  year: 2026
+  status: "in-press"

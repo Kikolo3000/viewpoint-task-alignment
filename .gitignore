@@ -1,0 +1,34 @@
+# Downloaded artifacts (fetched via scripts/download_artifacts.py)
+/artifacts/features/
+/artifacts/labels/
+/artifacts/breakdowns/
+/artifacts/interpretability/
+/artifacts/classifier_robustness.csv
+/artifacts/essen_diagnostic_comparison.csv
+/artifacts/MANIFEST.sha256
+
+# Cached Zenodo download
+/paper-folk-patterns-artifacts.zip
+/paper-folk-patterns-artifacts-v1.zip
+
+# Zenodo staging directory (large; uploaded to Zenodo directly, not git)
+/_zenodo_staging/
+
+# Regenerated analysis outputs (reproduced from artifacts + scripts)
+/results/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.uv/
+*.egg-info/
+dist/
+build/
+
+# Editor
+.vscode/
+.idea/
+
+# Dance-9 reconstruction inputs/outputs (scripts/build_dance9)
+/data/

@@ -1,0 +1,4 @@
+corpus_a,corpus_b,n_vp_configs,spearman_rho,p_value,boot_ci_lower,boot_ci_upper,ci_excludes_zero,interpretation
+symbtr,the_session,7,-0.607,0.14823116148116164,-0.957,0.176,False,underpowered (n=7); suggestive only
+symbtr,essen,7,0.286,0.5345092286010406,-1.0,0.867,False,underpowered (n=7); suggestive only
+the_session,essen,7,-0.107,0.8191508555699912,-0.97,0.866,False,underpowered (n=7); suggestive only

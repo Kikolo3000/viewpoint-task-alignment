@@ -1,0 +1,4 @@
+feature_config,classifier,f1_macro_mean,f1_macro_std
+global,logistic,0.2205016237048002,0.0343391142102399
+combined,logistic,0.3393799060221605,0.0393429935033463
+pattern_all,logistic,0.2557858182729461,0.0417871768716194

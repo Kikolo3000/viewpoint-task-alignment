@@ -1,0 +1,38 @@
+paths:
+  scores_dir: data/symbtr/scores
+  output_dir_base: results/symbtr
+  breakdown_file: breakdown.pkl
+  log_file: pattern_detection.dat
+  problematic_files: problematic_files.dat
+
+parameters:
+  encode: true
+  min_lengths: [4, 6, 8]
+  max_lengths: [7, 10, 12]
+  min_supports: [5, 4, 3]
+  dist_min: 0.0
+
+distance_function:
+  type: VectorCLevenshtein
+  threshold: 0.9
+  all_reduce: mean
+
+viewpoint_selection:
+  - SEQ_INT
+  - CONTOUR_DUR
+  - BEAT_STRENGTH_MAIN_SEC
+
+rgrowth_vsim:
+  chords_as_notes: true
+  is_encode: false
+  reuse_distance_matrix: false
+  save: false
+  minimal_verbosity: true
+
+optimization:
+  timeout_seconds: 180
+  increase_factor: 1.5
+  decrease_factor: 0.7
+  target_min: 1
+  target_max: 15
+  max_attempts: 5

@@ -1,0 +1,43 @@
+# Viewpoint ablation configurations
+# Each config defines which viewpoints to use for pattern mining.
+# These are applied on top of the base corpus config.
+
+M:
+  viewpoint_selection:
+    - SEQ_INT
+  description: "Pure melodic (directed intervals)"
+
+R:
+  viewpoint_selection:
+    - CONTOUR_DUR
+  description: "Pure rhythmic (duration shape)"
+
+B:
+  viewpoint_selection:
+    - BEAT_STRENGTH_MAIN_SEC
+  description: "Pure metric (strong/weak beats)"
+
+MR:
+  viewpoint_selection:
+    - SEQ_INT
+    - CONTOUR_DUR
+  description: "Melody + rhythm"
+
+MB:
+  viewpoint_selection:
+    - SEQ_INT
+    - BEAT_STRENGTH_MAIN_SEC
+  description: "Melody + meter"
+
+RB:
+  viewpoint_selection:
+    - CONTOUR_DUR
+    - BEAT_STRENGTH_MAIN_SEC
+  description: "Rhythm + meter"
+
+MRB:
+  viewpoint_selection:
+    - SEQ_INT
+    - CONTOUR_DUR
+    - BEAT_STRENGTH_MAIN_SEC
+  description: "Combined (current baseline)"
