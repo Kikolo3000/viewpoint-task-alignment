@@ -36,8 +36,8 @@ The derived artifacts are computed from three publicly available folk-music corp
 
 Please cite:
 
-> Gutiérrez Álvarez, E. "Viewpoint–Task Alignment: When and Why Pattern-Derived Features Improve Symbolic Folk-Music Classification." *Transactions of the International Society for Music Information Retrieval*, 2026 (in press).
+> Gutiérrez, E. "Viewpoint–Task Alignment: When and Why Pattern-Derived Features Improve Symbolic Folk-Music Classification." *Transactions of the International Society for Music Information Retrieval*, 2026 (in press).
 
-> Gutiérrez Álvarez, E. *Viewpoint–Task Alignment: Derived Artifacts*. Zenodo. DOI: [10.5281/zenodo.21129773](https://doi.org/10.5281/zenodo.21129773).
+> Gutiérrez, E. *Viewpoint–Task Alignment: Derived Artifacts*. Zenodo. DOI: [10.5281/zenodo.21129773](https://doi.org/10.5281/zenodo.21129773).
 
 If you redistribute raw SymbTr scores as part of your own work, SymbTr's non-commercial share-alike terms carry through — this release distributes only *derived features* and *breakdowns*, which are documented here as a transformative academic use.

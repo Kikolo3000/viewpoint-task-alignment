@@ -1,6 +1,6 @@
 # Viewpoint–task alignment — reproducibility package
 
-This repository reproduces every table and figure in the paper **"Viewpoint–Task Alignment: When and Why Pattern-Derived Features Improve Symbolic Folk-Music Classification"** by Enrique Gutiérrez Álvarez (*Transactions of the International Society for Music Information Retrieval*, accepted 2026), using pre-extracted features deposited on Zenodo ([10.5281/zenodo.21129773](https://doi.org/10.5281/zenodo.21129773)).
+This repository reproduces every table and figure in the paper **"Viewpoint–Task Alignment: When and Why Pattern-Derived Features Improve Symbolic Folk-Music Classification"** by Enrique Gutiérrez (*Transactions of the International Society for Music Information Retrieval*, accepted 2026), using pre-extracted features deposited on Zenodo ([10.5281/zenodo.21129773](https://doi.org/10.5281/zenodo.21129773)).
 
 **Status**: analysis-only. Pattern mining and feature extraction (which require the `simpg_music` library) are out of scope. We ship the pre-mined breakdowns and extracted feature matrices so that classification, interpretability, statistics, and figures can be regenerated end-to-end without external editable installs.
 

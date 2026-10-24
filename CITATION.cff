@@ -5,7 +5,7 @@ title: "Reproducibility package for 'Viewpoint–Task Alignment: When and Why Pa
 version: "1.0.0"
 date-released: "2026-10-24"
 authors:
-  - family-names: "Gutiérrez Álvarez"
+  - family-names: "Gutiérrez"
     given-names: "Enrique"
     affiliation: "Universidad Politécnica de Madrid"
     email: "enrique.gutierrez.alvarez@upm.es"
@@ -20,7 +20,7 @@ preferred-citation:
   type: article
   title: "Viewpoint–Task Alignment: When and Why Pattern-Derived Features Improve Symbolic Folk-Music Classification"
   authors:
-    - family-names: "Gutiérrez Álvarez"
+    - family-names: "Gutiérrez"
       given-names: "Enrique"
   journal: "Transactions of the International Society for Music Information Retrieval"
   year: 2026
