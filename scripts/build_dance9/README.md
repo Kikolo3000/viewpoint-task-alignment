@@ -7,7 +7,7 @@ which is the same source used by the original authors.
 
 The result is a 2,198-piece symbolic corpus in MusicXML, labelled with one of
 nine dance types, usable as a drop-in corpus in our mining/classification
-pipeline for a head-to-head benchmark comparison in the TISMIR paper (§5.7).
+pipeline for a head-to-head benchmark comparison in the TISMIR paper (§5.10).
 
 ## Pipeline stages
 

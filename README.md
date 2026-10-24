@@ -27,14 +27,14 @@ bash reproduce.sh
 
 | Script | Paper content |
 |---|---|
-| `01_run_classification.py` | All classification F1 scores per corpus × VP config (Tables 2, 3; Fig 1, 2) |
-| `02_run_ablation_statistics.py` | Wilcoxon + Cohen's d significance, rank correlations, Levene's test (Table 5; Fig 3, 4) |
-| `03_run_vp_importance_comparison.py` | Permutation-importance rank shifts across VP configs (Fig 5) |
-| `04_run_feature_statistics.py` | Kruskal–Wallis per feature; per-class F1 improvements (Table 6; Fig 7) |
-| `05_run_classifier_robustness.py` | Global → combined delta across classifier families (Fig 8) |
-| `07_run_essen_diagnostic.py` | Essen BoP isolation diagnostic (Fig 9) |
-| `08_run_dance9_comparison.py` | Dance-9 benchmark comparison vs published baselines (Table 4, §5.7) |
-| `06_generate_paper_figures.py` | All 9 PDF+PNG figures |
+| `01_run_classification.py` | All classification F1 scores per corpus × VP config (Table 4; Fig. 3; Supp. Fig. S2) |
+| `02_run_ablation_statistics.py` | Corrected resampled *t*-test, Wilcoxon and Cohen's d significance, rank correlations, Levene's test (Fig. 4; Supp. Table S2, Fig. S3) |
+| `03_run_vp_importance_comparison.py` | Permutation-importance rank shifts across VP configs (Fig. 6) |
+| `04_run_feature_statistics.py` | Kruskal–Wallis per feature; per-class F1 improvements (Fig. 8) |
+| `05_run_classifier_robustness.py` | Global → combined delta across classifier families (Fig. 9) |
+| `07_run_essen_diagnostic.py` | Essen BoP isolation diagnostic (Supp. Fig. S5) |
+| `08_run_dance9_comparison.py` | Dance-9 benchmark comparison vs published baselines (Table 5, §5.10) |
+| `06_generate_paper_figures.py` | The 9 data figures as PDF+PNG (Figs. 3, 4, 6–9; Supp. Figs. S2, S3, S5) |
 
 Approximate wall-clock on a 16-core laptop: 01 ≈ 25 min (dominated by Session/MRB), 02–04 ≈ 2 min each, 05 ≈ 10 min, 07 ≈ 10 min, 08 ≈ 5 min, 06 ≈ 30 s. Full `reproduce.sh` budget: about 1 hour.
 

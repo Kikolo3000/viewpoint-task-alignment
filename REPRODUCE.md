@@ -21,7 +21,7 @@ the optional breakdown pickles — requires the `SimPG-Music` miner, which is no
 (its methods paper is under review); the exact version used for the paper is recorded by
 commit hash `82857bd` and its source will be released with that paper.
 
-## 1. Classification (Tables 3, 4; Fig 1, 2)
+## 1. Classification (Table 4; Fig. 3; Supp. Fig. S2)
 
 ```bash
 uv run python scripts/01_run_classification.py
@@ -34,7 +34,7 @@ Writes, per `(corpus, vp)`:
 
 Runtime: ~25 min total (dominated by Session).
 
-## 2. Viewpoint ablation statistics (Table 5; Fig 3, 4)
+## 2. Viewpoint ablation statistics (Fig. 4; Supp. Table S2, Fig. S3)
 
 ```bash
 uv run python scripts/02_run_ablation_statistics.py
@@ -45,7 +45,7 @@ Writes, under `results/viewpoint_comparison/`:
 - `rank_correlations_ablation.csv` — Spearman ρ across corpus pairs + bootstrap CIs
 - `variance_comparison.csv` — Levene's test on per-VP F1 variance
 
-## 3. VP importance comparison (Fig 5)
+## 3. VP importance comparison (Fig. 6)
 
 ```bash
 uv run python scripts/03_run_vp_importance_comparison.py
@@ -53,7 +53,7 @@ uv run python scripts/03_run_vp_importance_comparison.py
 
 Writes `results/viewpoint_comparison/importance_shift_{corpus}.csv` for each of the three corpora, derived from the pre-computed permutation-importance CSVs seeded in step 0.
 
-## 4. Feature statistics + per-class F1 (Table 6; Fig 7)
+## 4. Feature statistics + per-class F1 (Fig. 8)
 
 ```bash
 uv run python scripts/04_run_feature_statistics.py
@@ -63,7 +63,7 @@ Writes:
 - `results/{corpus}/feature_statistics.csv` — Kruskal–Wallis per feature
 - `results/viewpoint_comparison/per_class_improvement_{corpus}.csv`
 
-## 5. Classifier-agnostic robustness (Fig 8)
+## 5. Classifier-agnostic robustness (Fig. 9)
 
 ```bash
 uv run python scripts/05_run_classifier_robustness.py
@@ -75,7 +75,7 @@ Writes:
 
 SVC is skipped above 5k pieces; GBM above 10k.
 
-## 6. Essen BoP diagnostic (Fig 9)
+## 6. Essen BoP diagnostic (Supp. Fig. S5)
 
 ```bash
 uv run python scripts/07_run_essen_diagnostic.py
@@ -83,13 +83,13 @@ uv run python scripts/07_run_essen_diagnostic.py
 
 Writes `results/essen/essen_diagnostic/{summary,fold_details,comparison}.csv`.
 
-## 7. Dance-9 benchmark comparison (Table 4)
+## 7. Dance-9 benchmark comparison (Table 5)
 
 ```bash
 uv run python scripts/08_run_dance9_comparison.py
 ```
 
-Reproduces Table 4 (§5.7): five classifiers on the Dance-9 corpus (VP=B, combined features),
+Reproduces Table 5 (§5.10): five classifiers on the Dance-9 corpus (VP=B, combined features),
 positioned against seven published baselines (Hillewaere 2012, 2014; Conklin 2013).
 
 Writes:
@@ -99,13 +99,14 @@ Writes:
 
 Runtime: ~5 min.
 
-## 8. Figures (1–9)
+## 8. Figures
 
 ```bash
 uv run python scripts/06_generate_paper_figures.py
 ```
 
-Writes `results/figures/fig{1..9}_*.{pdf,png}`.
+Writes `results/figures/fig{1..9}_*.{pdf,png}`. The file numbers are the script's own; in the published
+article they are, in order, Fig. 3, Supp. Fig. S2, Fig. 4, Supp. Fig. S3, Figs. 6, 7, 8, 9 and Supp. Fig. S5.
 
 ## 9. Verification
 
